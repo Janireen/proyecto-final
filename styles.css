@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:lightblue
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    font-size: 1.rem;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Header principal del documento */
+.header {
+ 
+    flex-direction: column; 
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color:lightblue;
+    
+}
+
+.header h1 {
+    font-family: "Chewy", cursive;
+    font-size: 3rem;
+    margin-right: 15%;
+    margin-left: 3rem;
+ 
+    
+}
+
+.header h2 {
+    font-family: "Chewy", cursive;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    text-align: end;
+
+
+}
+
+
+.header p {
+    margin-left: 20%;
+    font-size: 1.2rem;   
+}
+
+/* Navbar */
+ 
+.nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(210, 255, 240, 0.8));
+    text-align: end;
+  
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 2rem;
+
+}
+
+.nav a {
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: "Chewy", cursive;
+    color: black;
+
+}
+
+.nav li {
+    display: inline-block;
+    width: 17ch;
+    
+
+
+}
+
+ul :hover a {
+color: white;
+background-color:slategray;
+}
+
+/* Estilos del footer */
+
+footer{
+    background-color:darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 30%;
+  
+}
+
+.footer-social,
+.footer-legal {
+    width: 100%;
+    margin: 2em 0;
+    list-style: none;
+}
+
+
+
+footer li {
+    width: 100%;
+    line-height: 1.6;
+    
+   
+}
+
+.footer-icons{
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+  
+}
+
+footer a {
+    text-decoration:none;
+    
+}
+
+
+

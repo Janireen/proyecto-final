@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title> Crear Personaje</title>
+</head>
+<body>
+  
+        <h1> Crear figura</h1>
+        <ul>
+           {{#each personaje/crear}}
+        <li>{{nombre}} - {{edad}} años - Casa: {{casa}} - Rol: {{rol}}</li>
+
+        {{/each}}
+        </ul>
+</body>
+</html>

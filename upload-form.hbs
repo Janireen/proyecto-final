@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>{{ title }}</h2>
+     <p>{{ message }}</p>
+    <div class="form">
+        <form action="/upload/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit"> Cargar Archivo</button>
+        </form>
+    </div>
+</div>
